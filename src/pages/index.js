@@ -11,6 +11,8 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to my blog.</p>
     <p>This is my gatsby blog website.</p>
+    <p>Need a developer <a href='https://twitter.com'>Contact on twitter</a></p>
+    <p>Need a developer <Link to='/contact'>Contact me</Link></p>
   </Layout>
 )
 

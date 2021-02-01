@@ -1,17 +1,18 @@
 import React from 'react'
 
+import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const ServicesPage = () => {
+const ContactPage = () => {
     return (
-        <div>
-            <SEO title="Services" />
+        <Layout>
+            <SEO title="Contact" />
             <h1>Our Services</h1>
             <p>sdf jslkdfjo jdsf jsdfj dosfjosd</p>
             <p>sdf jslkdfjo jdsf jsdfj dosfjosd</p>
             <p>sdf jslkdfjo jdsf jsdfj dosfjosd</p>
-        </div>
+        </Layout>
     )
 }
 
-export default ServicesPage
+export default ContactPage
